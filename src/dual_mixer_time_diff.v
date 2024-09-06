@@ -1,4 +1,4 @@
-module pwm_generator #(
+module dmtd #(
     
     parameter SYNC_DEPTH = 3
 )(
