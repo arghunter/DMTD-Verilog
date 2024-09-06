@@ -1,4 +1,4 @@
-module dmtd #(
+module dmtf  #(
     
     parameter SYNC_DEPTH = 3
 )(
