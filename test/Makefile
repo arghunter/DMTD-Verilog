@@ -6,7 +6,6 @@ SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
 PROJECT_SOURCES = project.v
-PROJECT_SOURCES += ddr_to_sdr_dual.v
 PROJECT_SOURCES += dual_mixer_time_diff.v
 
 
