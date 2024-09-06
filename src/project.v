@@ -24,7 +24,7 @@ wire rst;
   assign uo_out[7:1] = 0;
   assign rst = !rst_n;
   generate
-    top_module u_top_module (
+    dmtf u_dmtd (
         .clk(ui_in[0]),       
         .rst(rst),       
         .async_clk_1(ui_in[1]),
