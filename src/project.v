@@ -30,7 +30,7 @@ wire rst;
         .async_clk_1(ui_in[1]),
         .async_clk_2(ui_in[2]),
         .delay_sign(uio_in[0]),
-        .delay(uio_in[7:1])
+        .delay(uio_in[7:1]),
         .dmtd_out(uo_out[0])
     );    
   endgenerate
