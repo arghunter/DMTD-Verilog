@@ -29,10 +29,12 @@ wire rst;
         .rst(rst),       
         .async_clk_1(ui_in[1]),
         .async_clk_2(ui_in[2]),
+        .delay_sign(uio_in[0]),
+        .delay(uio_in[7:1])
         .dmtd_out(uo_out[0])
     );    
   endgenerate
   // List all unused inputs to prevent warnings
-    wire _unused = &{ena, clk,ui_in[7:3],uio_in[7:0], 1'b0};
+    wire _unused = &{ena, clk,ui_in[7:3], 1'b0};
 
 endmodule
